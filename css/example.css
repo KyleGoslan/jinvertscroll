@@ -56,13 +56,13 @@ h1 {
 	position: absolute;
 }
 
-.profileOne {
+.profile-one {
 	bottom: 100px;
 	left: 100px;
 }
 
-.profileTwo {
-	bottom: px;
+.profile-two {
+	bottom: 300px;
 	left: 650px;
 }
 

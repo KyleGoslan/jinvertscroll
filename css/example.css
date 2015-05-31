@@ -32,18 +32,33 @@ h1 {
   * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
   */
 .horizon {
+	pointer-events: none;
     z-index: 1;
     width: 3000px;
 }
 
 .middle {
+	pointer-events: none;
     z-index: 500;
     width: 4000px;
 }
 
 .front {
+	pointer-events: none;
     z-index: 1000;
     width: 6000px;
+}
+
+
+.video-container {
+    z-index: 0;
+    width: 5000px;
+}
+
+.video {
+	position: absolute;
+	left: 400px;
+	bottom: 100px;
 }
 
 .profile-container {
